@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+//global variables
+
 // Declare constant
 const Title string = "Title"
 const Title2 = "Title 2"
@@ -16,6 +18,9 @@ var Country string = "INDIA"
 // CountryCode := "IN"
 
 func main(){
+
+	// local variables below
+	
 	// Short assignment operator
 	fname, lname := "Kunal", "Gandhre"
 	age := 35

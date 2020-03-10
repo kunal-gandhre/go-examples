@@ -31,14 +31,14 @@ func ToFirstUpper(s string) string {
 	str := strings.Split(s, "_")
 	for k, v := range str {
 		if k == 0 {
-			camelCase += v;
+			camelCase += v
 			continue
 		}
 		// character values from integer values
 		res := []rune(v)
 		// Convert first letter to upper case
 		res[0] = unicode.ToUpper(res[0])
-		camelCase += string(res);
+		camelCase += string(res)
 	}
 	return string(camelCase)
 }
