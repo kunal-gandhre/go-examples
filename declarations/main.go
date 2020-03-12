@@ -4,6 +4,11 @@ import (
 	"fmt"
 )
 
+// Variables
+var c, python, java bool
+// Variables with initializers
+var i, j int = 1, 2
+
 //global variables
 
 // Declare constant
@@ -18,9 +23,9 @@ var Country string = "INDIA"
 // CountryCode := "IN"
 
 func main(){
-
 	// local variables below
-	
+
+	// Short variable declarations
 	// Short assignment operator
 	fname, lname := "Kunal", "Gandhre"
 	age := 35
