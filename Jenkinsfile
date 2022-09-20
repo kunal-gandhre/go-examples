@@ -1,8 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven 3.3.9'
-        Go 'Go'
+        go '1.19'
     }
     stages {
         stage ('Initialize') {
